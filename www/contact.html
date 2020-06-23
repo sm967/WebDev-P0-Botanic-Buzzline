@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" media="all">
+  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="scripts/formfeedback.js" type="text/javascript"></script>
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <a class="MainLink" href="index.html"><h1 class="MainTitle">Botanic Buzzline</h1></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="pathway.html">Pathway</a></li>
+        <li><a class="onpage" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="contactForm">
+    <h2 class="page-title">Contact Us!</h2>
+    <p class="formdescrip">If you would like to join our listserv or get any information regarding the pathway or native pollinators please fill out this form! We look forward to hearing from you!</p>
+
+    <!--This form when viewed locally will take you to a php file. But, when viewed on a live website will go to en email. -->
+    <form method="post" action="submitAndEmailGmail.php" id="mainForm" novalidate>
+      <div id="fullname" class="forminputs standard-background error-background">
+        <label for="name">Full Name:</label>
+        <input id="name" type="text" name="name" maxlength="30" placeholder="Enter Your Name." required/>
+        <div id="nameError" class="feedback hidden">Enter a name.</div>
+      </div>
+
+      <div id="emailbackground" class="forminputs standard-background error-background">
+        <label for="userEmail">Email:</label>
+        <input id="userEmail" type="email" name="email" placeholder="Enter Your Email" required/>
+        <div id="noemailerror" class="feedback hidden">Enter an email.</div>
+        <div id="invalemailerror" class="feedback hidden">Enter in a valid email.</div>
+      </div>
+
+      <div class="listserv-holder">
+        <input type="checkbox" name="listserv" value="join-listserv" class="listservbox">Interested in joining our listserv?
+      </div>
+
+      <div class="forminputs">
+        <label for="select">Reason For Message</label>
+        <select id="select" name="reason" class="reasoning">
+          <option value="eventinfo">Event Information</option>
+          <option value="feedbackreason">Feedback</option>
+          <option value="question">Questions</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="forminputs">
+        <label for="message">Message:</label>
+        <textarea id="message" name="comments" placeholder="Enter in a message."></textarea>
+      </div>
+
+      <div>
+        <input id="submitbutton" type="submit" name="submit" value="submit"/>
+        <div id="submiterror" class="spacing hidden">**Please check the inputted information above!**</div>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footcontainer">
+      <p id="footerh1"><a href="index.html">Botanic Buzzline</a><p>
+      <p class="footeremail"><a href="mailto:bslsustainability@gmail.com">bslsustainability@gmail.com</a></p>
+      <div class="insta">
+        <div class="holdlogo">
+          <a href="https://www.instagram.com/cornellbotanicbuzzline/">
+            <img class="noborder" alt="Official Instagram Logo" src="images/instalogo.png">
+          </a>
+        </div>
+        <p class="follow"><a href="https://www.instagram.com/cornellbotanicbuzzline/">Follow Our Instagram</a></p>
+        <cite class="logosource"><a href="https://en.instagram-brand.com/assets/glyph-icon">Logo Source</a></cite>
+        <!-- We don't own this logo. This logo is the official Instagram logo that Instagram has authorized us to use. -->
+        <!--Link to Instagram's branding website https://en.instagram-brand.com/assets/glyph-icon -->
+      </div>
+      <nav id="footernav">
+        <ul class="footerlist">
+          <li class="footerp"><a href="index.html">Home</a></li>
+          <li class="footerp"><a href="about.html">About</a></li>
+          <li class="footerp"><a href="education.html">Education</a></li>
+          <li class="footerp"><a href="pathway.html">Pathway</a></li>
+          <li class="footerp"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

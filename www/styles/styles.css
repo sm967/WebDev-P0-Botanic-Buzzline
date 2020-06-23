@@ -1,0 +1,966 @@
+/* General Styling */
+body {
+  color: black;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-family: 'Cabin';
+  margin: 0px;
+}
+
+@font-face{
+  font-family: 'Fahkwang';
+  src: url(../fonts/Fahkwang/Fahkwang-Light.ttf);
+  font-family: 'Cabin';
+  src: url(../fonts/Cabin/Cabin-Regular.ttf);
+  font-family: 'KaushanScript';
+  src: url(../fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+}
+
+#insects, #insects1, #insects2, #insects3, #insects4 {
+  display: block;
+  border: solid;
+  padding: 2%;
+  border: inset;
+  border-color: #05390a;
+  background-color: #FBDAD5;
+  color: black;
+}
+
+span {
+  font-weight: bold;
+}
+
+blockquote p {
+  color: #05390a;
+}
+
+nav {
+  list-style-type: none;
+  text-align: center;
+  border-style: solid;
+  border-color: #05390a;
+  background-color: #009432;
+  border-right-style: none;
+  border-left-style: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+nav ul li{
+  display: inline;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #31393C;
+  color: white;
+  font-size: 16px;
+}
+
+nav a:hover{
+  border-bottom: 4px solid white;
+}
+
+li{
+  font-family: sans-serif;
+  font-family: cabin;
+}
+
+h1{
+  font-size: 55px;
+  margin: 0px;
+}
+
+h1, h2, h3{
+  text-align: center;
+  font-family: sans-serif;
+  font-family: 'Fahkwang';
+  font-family: 'Cabin';
+  font-family: 'KaushanScript';
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+}
+
+h3{
+  font-size: 40px;
+  background-color: #E2F0C8;
+  margin: 0px 105px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+p{
+  margin-right: 60px;
+  margin-left: 60px;
+  font-family: sans-serif;
+  font-family: 'Cabin';
+  font-family: 'Fahkwang';
+}
+
+.page-title{
+  background-color: #FBDAD5;
+}
+
+.onpage{
+  font-weight: bold;
+}
+
+img{
+  border-style: solid;
+  border-color: #05390a;
+  border-width: 5px;
+}
+
+.education cite {
+  font-size: 70%;
+}
+
+.slidecite {
+  text-align: center;
+}
+
+#show-beetles {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #FDA7DF;
+}
+
+#show-moths {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #FDA7DF;
+}
+
+#show-bees {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #FDA7DF;
+}
+
+#show-butterflies {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #FDA7DF;
+}
+
+/* Footer Styling */
+footer{
+  background-color: #FDA7DF;
+  margin-top: 80px;
+}
+
+.footcontainer{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#footernav{
+  background-color: #FDA7DF;
+  border-style: none;
+  text-align: left;
+  border-style: none;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.follow {
+  font-size: 13px;
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 0;
+  border-style: none;
+  color: black;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.follow a:hover, .footeremail a:hover{
+  border-bottom: 4px solid white;
+}
+
+#footernav{
+  display: block;
+  padding-top: 0px;
+}
+
+.footerlist{
+  padding-left: 0px;
+}
+
+#footernav .footerlist .footerp{
+  padding: 5px 0px;
+  padding-right: 15px;
+  display: inline;
+}
+
+#footernav .footerlist .footerp a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+#footerh1{
+  font-size: 23px;
+  margin: 0px auto;
+  text-decoration: none;
+  font-family: 'KaushanScript';
+}
+
+#footerh1 a, .follow a{
+  text-decoration: none;
+  color: black;
+}
+
+.insta{
+  display: flex;
+  flex-direction: row;
+}
+
+.noborder{
+  border-style: none;
+}
+
+.logosource{
+  margin-top: 5px;
+  padding-top: 1px;
+  font-size: 13px;
+}
+
+.footeremail{
+  margin-left: 0;
+  font-size: 15px;
+}
+
+.footeremail a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Index Styling */
+.slideshow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slideshowImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+#slideshowCapt {
+  text-align: center;
+}
+
+.slideshow h2 {
+  text-align: center;
+}
+
+.imageContainer {
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next, .prev {
+  position: absolute;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  cursor: pointer;
+  height: 20px;
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.next {
+  right: 20%;
+}
+
+.prev{
+  left: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.prev:hover, .next:hover {
+  background-color: black;
+}
+
+.homeContent {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-align: center;
+  width: 85%;
+  margin: 20px auto;
+  order: 2;
+}
+
+.previews {
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  filter: brightness(85%);
+}
+
+.updates {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #69334b;
+  padding-top: 10px;
+}
+
+h2.update {
+  padding: 10px 20px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.update-descrip{
+  margin: 5px;
+  margin-left: 0px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.previewpic {
+  max-width: 100%;
+}
+
+.homeintro{
+  width: 70%;
+  margin: 30px auto;
+  font-size: 25px;
+}
+
+.row1{
+  margin-right: 15px;
+}
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/filter#Syntax*/
+/*Above is the link to the source of how I figured out to use the brightness and blur filters */
+.blur:hover img{
+  filter: brightness(0.9) blur(0.5px);
+}
+
+.MainTitle{
+  color: #f6fb0b;
+  color: black;
+  color: #05390a;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.MainLink{
+  text-decoration: none;
+}
+
+.welcome{
+  margin: 25px 0px;
+  background-color: #FBDAD5;
+}
+
+.bottomcite {
+  margin-left: 8%;
+  width: 80%;
+  text-align: center;
+}
+
+/* About Styling */
+
+.about img{
+  display: block;
+  margin:20px auto;
+  width:50%;
+  height:auto;
+}
+
+.aboutpsource{
+  width: 50%;
+  margin: 20px auto;
+}
+
+.about p{
+  width: 70%;
+  margin: 20px auto;
+}
+
+.holder, .pixlee-cite{
+  width: 80%;
+  margin: auto;
+}
+
+.about-cite{
+  width: 70%;
+  margin: 10px auto;
+}
+
+.holdpixlee{
+  margin: 10px 100px;
+}
+
+/* Pathway Styling */
+.slideshow h2 {
+  text-align: center;
+}
+
+.imageContainer {
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.next, .prev {
+  position: absolute;
+  bottom: 60%;
+  color: white;
+  font-size: x-large;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.next {
+  right: 20%;
+}
+
+.prev{
+  right: 80%;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#slideshowImageP {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+#slideshowNextP, #slideshowPrevP {
+  bottom: 45%;
+}
+
+.pathdescrip{
+  width: 85%;
+  margin: 20px auto;
+}
+
+/* Contact Form Styling */
+#contactForm{
+  display: block;
+  width: 70%;
+  margin: 0px auto;
+  background: #FBDAD5;
+  border-radius: 15px;
+  font-family: sans-serif;
+  margin-top: 25px;
+  padding: 25px;
+}
+
+label, .reason, .messagetitle{
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 5%;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  font-size: 20px;
+}
+
+#contactForm h2{
+  background: #FBDAD5;
+}
+
+.reasoning{
+  text-align: left;
+  background-color: #ffffff;
+  margin-left: 5%;
+}
+
+.forminputs{
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  padding: 10px 0;
+  margin: 10px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.listserv-holder{
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  padding: 10px 0;
+  margin: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.listservbox{
+  margin-left: 5%;
+  margin-top: 15px;
+}
+
+.forminputs input, .forminputs textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  margin-left: 5%;
+  width: 94%;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.forminputs textarea{
+  width: 93%;
+  font-family: sans-serif;
+}
+
+textarea{
+  height: 200px;
+}
+
+/* Form Feedback Styling */
+.feedback{
+  margin-left: 5%;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.error-background{
+  background-color: #FDFE9F;
+}
+
+.standard-background{
+  background-color: #FBDAD5;
+}
+
+.hidden{
+  display: none;
+}
+
+/* Submit Button Styling */
+#submitbutton{
+  width: 150px;
+  height: 80px;
+  padding: 15px 15px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#submiterror{
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.submission-container{
+display: block;
+width: 70%;
+margin: 0px auto;
+background: #FBDAD5;
+border-radius: 15px;
+font-family: sans-serif;
+margin-top: 25px;
+padding: 25px;
+}
+
+.return-link{
+  color: black;
+  margin: 0px 30px;
+}
+
+/* Education Styling */
+.education p{
+  width: 70%;
+  margin: 20px auto;
+}
+
+.education img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 30px;
+}
+
+/* Secondary Nav Desktop Styling */
+@media screen and (max-width: 1300px) {
+
+  nav ul li {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}
+
+/* Tablet Styling */
+@media screen and (max-width: 899px) {
+  /* General Tablet Styling */
+.updates {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 90%;
+  text-align: center;
+  }
+
+nav {
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+}
+
+nav ul{
+  padding-left: 0px;
+}
+
+nav ul li {
+  padding:10px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #05390a;
+  background:#009432;
+}
+
+nav ul li a {
+  margin:5px auto;
+}
+
+h3{
+  margin: 0px 50px;
+  background-color: #E2F0C8;
+}
+
+/* Slideshow */
+#slideshowImage{
+    width: 90%;
+}
+
+/* footer tablet styling */
+
+.footcontainer{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#footernav{
+  background-color: #FDA7DF;
+  border-style: none;
+  text-align: left;
+  border-style: none;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.follow {
+  font-size: 13px;
+  display: block;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 0;
+  border-style: none;
+  color: black;
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+#footernav{
+  display: block;
+  padding-top: 0px;
+}
+
+.footerlist{
+  padding-left: 0px;
+}
+
+#footernav .footerlist .footerp{
+  padding: 5px 0px;
+  padding-right: 15px;
+  display: inline;
+  background-color: #FDA7DF;
+  border-style: none;
+}
+
+#footernav .footerlist .footerp a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+#footerh1{
+  font-size: 23px;
+  margin: 0px auto;
+  text-decoration: none;
+}
+
+#footerh1 a, .follow a{
+  text-decoration: none;
+  color: black;
+}
+
+.insta{
+  display: flex;
+  flex-direction: row;
+}
+
+.noborder{
+  border-style: none;
+}
+
+/*About - Tablet Styling */
+
+.holder{
+  width: 80%;
+  margin: auto;
+}
+
+
+/* Pathway - Tablet Styling */
+.next {
+  right: 5%;
+}
+
+.prev{
+  left: 5%;
+}
+}
+
+
+/* Mobile Phone Styling */
+@media screen and (max-width: 600px) {
+  /* General Mobile Phone Styling */
+nav {
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+}
+
+nav ul{
+  padding-left: 0px;
+}
+
+nav ul li {
+  padding:10px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #05390a;
+  background:#009432;
+}
+
+nav ul li a {
+  margin:5px auto;
+}
+
+.container{
+  margin: 5px;
+}
+
+p{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+  margin: 0px 105px;
+  background-color: #E2F0C8;
+}
+
+
+/* Index - Mobile Phone Styling */
+.homeContent {
+  flex-flow: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeintro{
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+}
+
+.updates {
+  order: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 90%;
+  text-align: center;
+}
+
+h2.update{
+  text-align: center;
+}
+
+.previews {
+  order: 2;
+  flex-direction: column;
+  text-align: center;
+  border-style: none;
+}
+
+.previewpic {
+  margin-top: 20px;
+  max-width: 90%;
+}
+
+.row1{
+  margin-right: 0;
+}
+
+.bottomcite {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+/* About - Mobile Phone Styling */
+.about p, .about-cite{
+  width:90%;
+}
+
+.about img{
+  width:90%;
+  height:auto;
+}
+
+.aboutpsource{
+  width: 90%;
+  margin: 20px auto;
+}
+
+div.holder, .pixlee-cite{
+  width: 100%;
+  margin: auto;
+}
+
+/* Slideshow - Mobile Phone Styling */
+.next {
+  right: 5%;
+}
+
+.prev{
+  left: 5%;
+}
+
+#slideshowImage{
+  width: 90%;
+}
+
+/* Contact Form - Mobile Phone Styling */
+.listserv-holder{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+textarea{
+  width: 200px;
+  height: 150px;
+}
+
+#submitbutton{
+  display: block;
+  margin: 0px auto;
+}
+
+.formdescrip {
+  margin: 10px 25px;
+  line-height: 28px;
+}
+
+#contactForm{
+  width: 85%;
+}
+
+/* Styling For Footer   */
+.footcontainer{
+  text-align: center;
+}
+
+.insta{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footerp{
+  text-align: center;
+}
+
+.footcontainer #footernav .footerlist{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#footernav .footerlist .footerp{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding: 5px 0px;
+  display: block;
+}
+}
